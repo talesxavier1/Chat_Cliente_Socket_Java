@@ -1,106 +1,317 @@
-<h1> Cliente Chat</h1>
+### Features
 
-<h4>Finalidade</h4>
+- Support Standard Markdown / CommonMark and GFM(GitHub Flavored Markdown);
+- Full-featured: Real-time Preview, Image (cross-domain) upload, Preformatted text/Code blocks/Tables insert, Code fold, Search replace, Read only, Themes, Multi-languages, L18n, HTML entities, Code syntax highlighting...;
+- Markdown Extras : Support ToC (Table of Contents), Emoji, Task lists, @Links...;
+- Compatible with all major browsers (IE8+), compatible Zepto.js and iPad;
+- Support identification, interpretation, fliter of the HTML tags;
+- Support TeX (LaTeX expressions, Based on KaTeX), Flowchart and Sequence Diagram of Markdown extended syntax;
+- Support AMD/CMD (Require.js & Sea.js) Module Loader, and Custom/define editor plugins;
 
-Esse projeto é um trabalho da matéria de Redes de Computadores, proposto pela faculdade. O projeto tem a finalidade de colocar em prática os conceitos de comunicação TCP/IP entre um cliente e um servidor.
+# Editor.md
 
-------------
-<h4>Programas utilizados</h4>
+![](https://pandao.github.io/editor.md/images/logos/editormd-logo-180x180.png)
 
--  [Eclipse 2019-12](https://www.eclipse.org/downloads/packages/release/2019-12 "Eclipse 2019-12")
--  [SQLiteStudio 3.3.3 ](https://sqlitestudio.pl/ "SQLiteStudio 3.3.3")
-
-------------
-
-<h4>Ferramentas utilizadas</h4>
-
--  [Java SE Development Kit 8](https://www.oracle.com/br/java/technologies/javase/javase-jdk8-downloads.html "Eclipse 2019-12")
--  [SQLite 3.35.5 ](https://www.sqlite.org/index.html "SQLite 3.35.5")
--  [JTattoo 1.6.13](http://www.jtattoo.net/ "JTattoo 1.6.13")
-
-------------
+![](https://img.shields.io/github/stars/pandao/editor.md.svg) ![](https://img.shields.io/github/forks/pandao/editor.md.svg) ![](https://img.shields.io/github/tag/pandao/editor.md.svg) ![](https://img.shields.io/github/release/pandao/editor.md.svg) ![](https://img.shields.io/github/issues/pandao/editor.md.svg) ![](https://img.shields.io/bower/v/editor.md.svg)
 
 
-#### Funcionalidades
+**Table of Contents**
 
-O sistema possui as funcionalidades básicas para um cliente de chat.
+[TOCM]
 
-<!--ts-->
-* [Funcionalidades](####Funcionalidades)
- * [Cadastro](#####Cadastro)
- * [STDIN](#stdin)
- * [STDIN](#stdin)
- * [STDIN](#stdin)
- * [STDIN](#stdin)
- * [STDIN](#stdin)
- * [STDIN](#stdin)
- * [STDIN](#stdin)
-<!--te-->
+[TOC]
 
-<br>
+#H1 header
+##H2 header
+###H3 header
+####H4 header
+#####H5 header
+######H6 header
+#Heading 1 link [Heading link](https://github.com/pandao/editor.md "Heading link")
+##Heading 2 link [Heading link](https://github.com/pandao/editor.md "Heading link")
+###Heading 3 link [Heading link](https://github.com/pandao/editor.md "Heading link")
+####Heading 4 link [Heading link](https://github.com/pandao/editor.md "Heading link") Heading link [Heading link](https://github.com/pandao/editor.md "Heading link")
+#####Heading 5 link [Heading link](https://github.com/pandao/editor.md "Heading link")
+######Heading 6 link [Heading link](https://github.com/pandao/editor.md "Heading link")
 
-#####Cadastro.
+##Headers (Underline)
 
-A tela de cadastro permite o cadastro das credenciais do usuário e uma foto de perfil. Caso já tenha um usuário cadastrado com o e-mail inserido, o usuário será notificado.
+H1 Header (Underline)
+=============
 
-<a href="https://imgur.com/nblobQr"><img src="https://i.imgur.com/nblobQr.gif" title="source: imgur.com" /></a>
-<br>
+H2 Header (Underline)
+-------------
 
+###Characters
+                
+----
 
-##### Adicionar novo contato.
+~~Strikethrough~~ <s>Strikethrough (when enable html tag decode.)</s>
+*Italic*      _Italic_
+**Emphasis**  __Emphasis__
+***Emphasis Italic*** ___Emphasis Italic___
 
-É possível adicionar um contato fazendo uma pesquisando com o nome do usuário.
+Superscript: X<sub>2</sub>，Subscript: O<sup>2</sup>
 
-<a href="https://imgur.com/pN8cZfk"><img src="https://i.imgur.com/pN8cZfk.gif" title="source: imgur.com" /></a>
+**Abbreviation(link HTML abbr tag)**
 
-<br>
+The <abbr title="Hyper Text Markup Language">HTML</abbr> specification is maintained by the <abbr title="World Wide Web Consortium">W3C</abbr>.
 
-##### Nova conversa.
+###Blockquotes
 
-Após um contato ser adicionado, é possível iniciar uma conversa.
+> Blockquotes
 
-<a href="https://imgur.com/JAZG3vk"><img src="https://i.imgur.com/JAZG3vk.gif" title="source: imgur.com" /></a>
+Paragraphs and Line Breaks
+                    
+> "Blockquotes Blockquotes", [Link](http://localhost/)。
 
-<br>
+###Links
 
-##### Deletar uma conversa.
+[Links](http://localhost/)
 
-É possível deletar uma conversa. Quando uma conversa é deletada, todas as mensagens são apagadas.
+[Links with title](http://localhost/ "link title")
 
-<a href="https://imgur.com/VBEEheS"><img src="https://i.imgur.com/VBEEheS.gif" title="source: imgur.com" /></a>
+`<link>` : <https://github.com>
 
-<br>
+[Reference link][id/name] 
 
-##### Mensagem de desconhecido.
+[id/name]: http://link-url/
 
-É possível receber uma mensagem de um desconhecido. Nesse caso, podemos conversar normalmente com ele, adicionar ele aos contatos ou excluir a conversa. O nome e a foto do desconhecido só ficam aparentes após ele ser adicionado.
+GFM a-tail link @pandao
 
-<a href="https://imgur.com/4FpOy5t"><img src="https://i.imgur.com/4FpOy5t.gif" title="source: imgur.com" /></a>
+###Code Blocks (multi-language) & highlighting
 
-<br>
+####Inline code
 
-##### Mensagem off-line.
+`$ npm install marked`
 
-É possível receber uma mensagem de outro usuário, mesmo estando off-line.
+####Code Blocks (Indented style)
 
-<a href="https://imgur.com/kAmomIe"><img src="https://i.imgur.com/kAmomIe.gif" title="source: imgur.com" /></a>
+Indented 4 spaces, like `<pre>` (Preformatted Text).
 
-<br>
+    <?php
+        echo "Hello world!";
+    ?>
+    
+Code Blocks (Preformatted text):
 
-##### Mensagem off-line de desconhecido.
+    | First Header  | Second Header |
+    | ------------- | ------------- |
+    | Content Cell  | Content Cell  |
+    | Content Cell  | Content Cell  |
 
-Assim como a mensagem off-line, é possível receber uma mensagem de um desconhecido, mesmo estando off-line.
+####Javascript　
 
-<a href="https://imgur.com/KFEOLqq"><img src="https://i.imgur.com/KFEOLqq.gif" title="source: imgur.com" /></a>
+```javascript
+function test(){
+	console.log("Hello world!");
+}
+ 
+(function(){
+    var box = function(){
+        return box.fn.init();
+    };
 
-<br>
+    box.prototype = box.fn = {
+        init : function(){
+            console.log('box.init()');
 
-##### Excluir contato.
+			return this;
+        },
 
-É possível excluir um contato da lista de contatos. Nesse caso, a conversa e as mensagens são excluídas junto com o contato.
+		add : function(str){
+			alert("add", str);
 
-<a href="https://imgur.com/QBYGZyJ"><img src="https://i.imgur.com/QBYGZyJ.gif" title="source: imgur.com" /></a>
+			return this;
+		},
 
+		remove : function(str){
+			alert("remove", str);
 
+			return this;
+		}
+    };
+    
+    box.fn.init.prototype = box.fn;
+    
+    window.box =box;
+})();
 
+var testBox = box();
+testBox.add("jQuery").remove("jQuery");
+```
 
+####HTML code
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <mate charest="utf-8" />
+        <title>Hello world!</title>
+    </head>
+    <body>
+        <h1>Hello world!</h1>
+    </body>
+</html>
+```
+
+###Images
+
+Image:
+
+![](https://pandao.github.io/editor.md/examples/images/4.jpg)
+
+> Follow your heart.
+
+![](https://pandao.github.io/editor.md/examples/images/8.jpg)
+
+> 图为：厦门白城沙滩 Xiamen
+
+图片加链接 (Image + Link)：
+
+[![](https://pandao.github.io/editor.md/examples/images/7.jpg)](https://pandao.github.io/editor.md/examples/images/7.jpg "李健首张专辑《似水流年》封面")
+
+> 图为：李健首张专辑《似水流年》封面
+                
+----
+
+###Lists
+
+####Unordered list (-)
+
+- Item A
+- Item B
+- Item C
+     
+####Unordered list (*)
+
+* Item A
+* Item B
+* Item C
+
+####Unordered list (plus sign and nested)
+                
++ Item A
++ Item B
+    + Item B 1
+    + Item B 2
+    + Item B 3
++ Item C
+    * Item C 1
+    * Item C 2
+    * Item C 3
+
+####Ordered list
+                
+1. Item A
+2. Item B
+3. Item C
+                
+----
+                    
+###Tables
+                    
+First Header  | Second Header
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell 
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
+| Function name | Description                    |
+| ------------- | ------------------------------ |
+| `help()`      | Display the help window.       |
+| `destroy()`   | **Destroy your computer!**     |
+
+| Item      | Value |
+| --------- | -----:|
+| Computer  | $1600 |
+| Phone     |   $12 |
+| Pipe      |    $1 |
+
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
+                
+----
+
+####HTML entities
+
+&copy; &  &uml; &trade; &iexcl; &pound;
+&amp; &lt; &gt; &yen; &euro; &reg; &plusmn; &para; &sect; &brvbar; &macr; &laquo; &middot; 
+
+X&sup2; Y&sup3; &frac34; &frac14;  &times;  &divide;   &raquo;
+
+18&ordm;C  &quot;  &apos;
+
+##Escaping for Special Characters
+
+\*literal asterisks\*
+
+##Markdown extras
+
+###GFM task list
+
+- [x] GFM task list 1
+- [x] GFM task list 2
+- [ ] GFM task list 3
+    - [ ] GFM task list 3-1
+    - [ ] GFM task list 3-2
+    - [ ] GFM task list 3-3
+- [ ] GFM task list 4
+    - [ ] GFM task list 4-1
+    - [ ] GFM task list 4-2
+
+###Emoji mixed :smiley:
+
+> Blockquotes :star:
+
+####GFM task lists & Emoji & fontAwesome icon emoji & editormd logo emoji :editormd-logo-5x:
+
+- [x] :smiley: @mentions, :smiley: #refs, [links](), **formatting**, and <del>tags</del> supported :editormd-logo:;
+- [x] list syntax required (any unordered or ordered list supported) :editormd-logo-3x:;
+- [x] [ ] :smiley: this is a complete item :smiley:;
+- [ ] []this is an incomplete item [test link](#) :fa-star: @pandao; 
+- [ ] [ ]this is an incomplete item :fa-star: :fa-gear:;
+    - [ ] :smiley: this is an incomplete item [test link](#) :fa-star: :fa-gear:;
+    - [ ] :smiley: this is  :fa-star: :fa-gear: an incomplete item [test link](#);
+            
+###TeX(LaTeX)
+   
+$$E=mc^2$$
+
+Inline $$E=mc^2$$ Inline，Inline $$E=mc^2$$ Inline。
+
+$$\(\sqrt{3x-1}+(1+x)^2\)$$
+                    
+$$\sin(\alpha)^{\theta}=\sum_{i=0}^{n}(x^i + \cos(f))$$
+                
+###FlowChart
+
+```flow
+st=>start: Login
+op=>operation: Login operation
+cond=>condition: Successful Yes or No?
+e=>end: To admin
+
+st->op->cond
+cond(yes)->e
+cond(no)->op
+```
+
+###Sequence Diagram
+                    
+```seq
+Andrew->China: Says Hello 
+Note right of China: China thinks\nabout it 
+China-->Andrew: How are you? 
+Andrew->>China: I am good thanks!
+```
+
+###End
