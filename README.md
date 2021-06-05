@@ -27,7 +27,7 @@ O sistema possui as funcionalidades básicas para um cliente de chat.
 
 <!--ts-->
 * [Funcionalidades](####Funcionalidades)
- * [Cadastro](##### Cadastro)
+ * [Cadastro](#####Cadastro)
  * [STDIN](#stdin)
  * [STDIN](#stdin)
  * [STDIN](#stdin)
