@@ -21,7 +21,7 @@ Esse projeto é um trabalho da matéria de Redes de Computadores, proposto pela 
 ------------
 
 
-####Funcionalidades
+#### Funcionalidades
 
 O sistema possui as funcionalidades básicas para um cliente de chat.
 
@@ -29,7 +29,7 @@ O sistema possui as funcionalidades básicas para um cliente de chat.
 
 <br>
 
-#####Cadastro.
+##### Cadastro.
 
 A tela de cadastro permite o cadastro das credenciais do usuário e uma foto de perfil. Caso já tenha um usuário cadastrado com o e-mail inserido, o usuário será notificado.
 
@@ -37,7 +37,7 @@ A tela de cadastro permite o cadastro das credenciais do usuário e uma foto de 
 <br>
 
 
-#####Adicionar novo contato.
+##### Adicionar novo contato.
 
 É possível adicionar um contato fazendo uma pesquisando com o nome do usuário.
 
@@ -77,7 +77,7 @@ Após um contato ser adicionado, é possível iniciar uma conversa.
 
 <br>
 
-##### mensagem off-line de desconhecido.
+##### Mensagem off-line de desconhecido.
 
 Assim como a mensagem off-line, é possível receber uma mensagem de um desconhecido, mesmo estando off-line.
 
@@ -85,7 +85,7 @@ Assim como a mensagem off-line, é possível receber uma mensagem de um desconhe
 
 <br>
 
-#####Excluir contato.
+##### Excluir contato.
 
 É possível excluir um contato da lista de contatos. Nesse caso, a conversa e as mensagens são excluídas junto com o contato.
 
