@@ -38,7 +38,7 @@ O sistema possui as funcionalidades básicas para um cliente de chat.
 <br>
 
 ------------
-####Banco de Dados.
+#### Banco de Dados.
 
 O banco de dados que foi usado no projeto foi o [SQLite 3.35.5](https://www.sqlite.org/index.html "SQLite 3.35.5"), um banco de dados local. Todos os dados dos clientes, contatos e conversas são armazenados no arquivo [BancoDeDados.db](https://github.com/talesxavier1/Chat_Cliente_Socket_Java/blob/main/DB/BancoDeDados.db). O banco de dados possui a estrutura abaixo.
 
