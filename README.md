@@ -25,7 +25,17 @@ Esse projeto é um trabalho da matéria de Redes de Computadores, proposto pela 
 
 O sistema possui as funcionalidades básicas para um cliente de chat.
 
-[TOC]
+<!--ts-->
+* [Funcionalidades](####Funcionalidades)
+ * [Cadastro](##### Cadastro)
+ * [STDIN](#stdin)
+ * [STDIN](#stdin)
+ * [STDIN](#stdin)
+ * [STDIN](#stdin)
+ * [STDIN](#stdin)
+ * [STDIN](#stdin)
+ * [STDIN](#stdin)
+<!--te-->
 
 <br>
 
