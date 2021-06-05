@@ -25,15 +25,14 @@ Esse projeto é um trabalho da matéria de Redes de Computadores, proposto pela 
 
 O sistema possui as funcionalidades básicas para um cliente de chat.
 
-- [Heading](#Excluir-contato)
-  * [Sub-heading](#sub-heading)
-    + [Sub-sub-heading](#sub-sub-heading)
-- [Heading](#heading-1)
-  * [Sub-heading](#sub-heading-1)
-    + [Sub-sub-heading](#sub-sub-heading-1)
-- [Heading](#heading-2)
-  * [Sub-heading](#sub-heading-2)
-    + [Sub-sub-heading](#sub-sub-heading-2)
+- [Funcionalidades](#Funcionalidades)
+  * [Adicionar novo contato](#Adicionar-novo-contato)
+  * [Nova conversa](#Nova-conversa)
+  * [Deletar uma conversa](#Deletar-uma-conversa)
+  * [Mensagem de desconhecido](#Mensagem-de-desconhecido)
+  * [Mensagem off-line](#Mensagem-off-line)
+  * [Mensagem off-line de desconhecido](#Mensagem-off-line-de-desconhecido)
+  * [Excluir contato](#Excluir-contato)
 
 <br>
 
