@@ -25,7 +25,8 @@ Esse projeto é um trabalho da matéria de Redes de Computadores, proposto pela 
 
 O sistema possui as funcionalidades básicas para um cliente de chat.
 
-- [Funcionalidades](#Funcionalidades)
+- [Funcionalidades](#)
+  * [Cadastro](#Cadastro)
   * [Adicionar novo contato](#Adicionar-novo-contato)
   * [Nova conversa](#Nova-conversa)
   * [Deletar uma conversa](#Deletar-uma-conversa)
@@ -35,6 +36,15 @@ O sistema possui as funcionalidades básicas para um cliente de chat.
   * [Excluir contato](#Excluir-contato)
 
 <br>
+
+------------
+####Banco de Dados.
+
+O banco de dados que foi usado no projeto foi o [SQLite 3.35.5](https://www.sqlite.org/index.html "SQLite 3.35.5"), um banco de dados local. Todos os dados dos clientes, contatos e conversas são armazenados no arquivo [BancoDeDados.db](https://github.com/talesxavier1/Chat_Cliente_Socket_Java/blob/main/DB/BancoDeDados.db). O banco de dados possui a estrutura abaixo.
+
+<a href="https://imgur.com/lzDh6CN"><img src="https://i.imgur.com/lzDh6CN.png" title="source: imgur.com" /></a>
+
+------------
 
 ##### Cadastro.
 
