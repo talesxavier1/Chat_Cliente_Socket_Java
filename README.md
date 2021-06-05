@@ -30,6 +30,7 @@ O sistema possui as funcionalidades básicas para um cliente de chat.
 <br>
 
 #####Cadastro.
+
 A tela de cadastro permite o cadastro das credenciais do usuário e uma foto de perfil. Caso já tenha um usuário cadastrado com o e-mail inserido, o usuário será notificado.
 
 <a href="https://imgur.com/nblobQr"><img src="https://i.imgur.com/nblobQr.gif" title="source: imgur.com" /></a>
@@ -37,6 +38,7 @@ A tela de cadastro permite o cadastro das credenciais do usuário e uma foto de 
 
 
 #####Adicionar novo contato.
+
 É possível adicionar um contato fazendo uma pesquisando com o nome do usuário.
 
 <a href="https://imgur.com/pN8cZfk"><img src="https://i.imgur.com/pN8cZfk.gif" title="source: imgur.com" /></a>
@@ -92,4 +94,3 @@ Assim como a mensagem off-line, é possível receber uma mensagem de um desconhe
 
 
 
-skkQ
