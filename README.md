@@ -39,7 +39,7 @@ O sistema possui as funcionalidades básicas para um cliente de chat.
 
 <br>
 
-##### Cadastro.
+#####Cadastro.
 
 A tela de cadastro permite o cadastro das credenciais do usuário e uma foto de perfil. Caso já tenha um usuário cadastrado com o e-mail inserido, o usuário será notificado.
 
