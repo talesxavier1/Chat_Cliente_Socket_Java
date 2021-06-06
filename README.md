@@ -5,6 +5,11 @@
 Esse projeto é um trabalho da matéria de Redes de Computadores, proposto pela faculdade. O projeto tem a finalidade de colocar em prática os conceitos de comunicação TCP/IP entre um cliente e um servidor.
 
 ------------
+<h4>Servidor</h4>
+
+Esse projeto necessita de um servidor para funcionar. O projeto do servidor pode ser conferido [aqui](https://github.com/talesxavier1/Chat_Server_Socket_Java).
+
+------------
 <h4>Programas utilizados</h4>
 
 -  [Eclipse 2019-12](https://www.eclipse.org/downloads/packages/release/2019-12 "Eclipse 2019-12")
